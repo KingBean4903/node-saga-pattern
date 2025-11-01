@@ -1,6 +1,6 @@
-# Order Saga Orchestrator — Distributed Workflow with Compensating Actions
+# Order Saga Orchestrator — Using Node EventEmitter
 
-> A Node.js project demonstrating the **Saga Orchestrator pattern** with **compensating actions**, **domain events**, and **state transitions** — all inspired by real-world e-commerce order processing.
+> A Node.js project demonstrating the **Saga Orchestrator pattern** using **EventEmitter** — all inspired by real-world e-commerce order processing.
 
 ---
 
@@ -8,7 +8,6 @@
 
 This project simulates a distributed workflow that coordinates multiple services — **Order**, **Payment**, **Inventory**, **Shipping**, and **Notification** — through an **event-driven orchestration layer**.
 
-Instead of relying on a single database transaction, it uses **compensating actions** to logically undo operations when failures occur, ensuring **eventual consistency** in a microservices environment.
 
 ---
 
